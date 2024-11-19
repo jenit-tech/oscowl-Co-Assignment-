@@ -1,5 +1,5 @@
-
-import TodoList from '../TodoList'
+import {Component} from 'react'
+import UserManagementDashboard from '../UserManagementDashboard'
 
 
 
@@ -8,15 +8,25 @@ import './index.css'
 
 
 
-const Home = () => (
-  <div >
-   
+class Home extends Component  {
+    render()  {
+        return (
+            <div className="app-container">
+            <div className="app-card">
+              <h1 className="heading">User Management Dashboard</h1>
+              <UserManagementDashboard />
+              </div>
+              </div>
+        
+        
+        
+        
+            
+         
+        )
 
+    }
 
- <TodoList />
-
-    
-  </div>
-)
+} 
 
 export default Home

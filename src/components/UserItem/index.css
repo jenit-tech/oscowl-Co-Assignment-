@@ -1,5 +1,5 @@
 .todo-item {
-    background-color: #FFA500;
+    background-color:  #ffb6c1;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
@@ -32,7 +32,7 @@
 .delete-button {
     width: 80px;
     background-color: #ffffff; 
-    color: #188cff;
+    color: #ffb6c1;
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 600;
@@ -48,7 +48,7 @@
 .save-button {
     width: 80px;
     background-color: #ffffff; 
-    color: #188cff;
+    color:  #ffb6c1;
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 600;
@@ -63,7 +63,7 @@
 .edit-button {
     width: 80px;
     background-color: #ffffff; 
-    color: #188cff;
+    color:  #ffb6c1;
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 600;

@@ -1,0 +1,77 @@
+.todo-list {
+  list-style-type: none;
+}
+
+.form {
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 2px;
+  color: #ffb6c1;
+}
+
+.input-field,
+.input-textarea {
+  margin-top: 6px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 5px 5px 15px;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  border-radius: 3px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  height: 40px;
+}
+
+.input-textarea {
+  height: 150px; /* Adjusted for a better height */
+}
+
+
+.button {
+  width: 100%;
+  background-color: #ffb6c1;
+  color: #f8fafc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.success-message {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 2px;
+  color: #ffb6c1;
+  text-align: center;
+}
+
+.error-msg {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: red;
+  margin-bottom: 10px;
+  margin-top: -5px; /* Adjust for better alignment */
+}

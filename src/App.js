@@ -1,7 +1,7 @@
-import TodoList from './components/TodoList'
+import UserManagementDashboard from './components/UserManagementDashboard'
 
 import './App.css'
 
-const App = () => <TodoList />
+const App = () => <UserManagementDashboard />
 
 export default App

@@ -1,0 +1,47 @@
+.app-container {
+    background-color:  #ffb6c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+  }
+  
+  .app-card {
+      background-color: #ffffff;
+      margin: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 97%;
+      border-radius: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+      .app-card {
+        padding: 50px;
+        margin-top: 98px;
+        margin-bottom: 98px;
+      }
+    }
+  
+  
+    .heading {
+      font-size: 30px;
+      font-family: 'Roboto';
+      color:  #ffb6c1;
+      text-align: center;
+      font-weight: 700;
+      margin-top: 12px;
+      margin-bottom: 16px;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .heading {
+        font-size: 50px;
+        margin-top: 35px;
+        margin-bottom: 48px;
+      }
+    }
+  
